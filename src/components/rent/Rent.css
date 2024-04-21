@@ -1,0 +1,75 @@
+.slick-prev:before,
+.slick-next:before {
+  padding: 7px !important;
+  padding-top: 12px !important;
+  z-index: 50000 !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  color: black !important;
+  font-size: 30px !important;
+  background-color: white !important;
+}
+
+.slick-next {
+  right: 15px !important;
+  top: 35% !important;
+  margin-left: 20px !important;
+}
+
+.slick-prev {
+  left: -30px !important;
+  top: 35% !important;
+}
+
+#buyslider {
+  width: 80vw;
+}
+
+#project_img_rent {
+  width: 29vw;
+  height: 300px;
+  object-fit: fill;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#project_img:hover {
+  scale: 1.02;
+  transition: 0.5s;
+}
+
+/* CSS */
+#project_desc .absolute {
+  display: none;
+}
+
+#project_desc:hover .absolute {
+  display: flex;
+}
+
+
+
+.absolute{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+
+.overlay{
+    width: 95.5%;
+    height: 76%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+  #project_img_rent {
+    width: 98vw;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+}

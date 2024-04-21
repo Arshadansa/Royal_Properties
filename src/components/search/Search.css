@@ -1,0 +1,42 @@
+.searchResult{
+    position: absolute;
+    text-align: left;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    top:280px;
+    left: 700px;
+    width: 575px;
+    min-height: 150px;
+    background-color: #ffffff;
+    z-index: 100;
+    box-shadow: #8b8989 0px 4px 14px;
+  }
+
+  .citylist{
+    border-bottom: 1px solid rgb(208, 207, 207);
+    border-top: 1px solid rgb(208, 207, 207);
+  }
+
+@media (max-width:450px) {
+  .searchResult{
+    position: absolute;
+    text-align: left;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    top:485px;
+    left: 160px;
+    width: 192px;
+    min-height: 150px;
+    background-color: #ffffff;
+    z-index: 100;
+    box-shadow: #8b8989 0px 4px 14px;
+  }
+
+  .citylist{
+    border-bottom: 1px solid rgb(208, 207, 207);
+    border-top: 1px solid rgb(208, 207, 207);
+  }
+}
+  
+  
+  

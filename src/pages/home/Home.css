@@ -1,0 +1,105 @@
+#homebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.dancing-script-div {
+  font-family: "Dancing Script", cursive;
+}
+
+#cats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+#catbtn {
+  font-weight: 600;
+}
+
+#search {
+  padding: 10px 0px 20px 0px;
+}
+
+#searchinput {
+  width: 50vw;
+  height: 50px;
+  padding: 8px 15px;
+  font-size: 16px;
+  margin-top: 2px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.actionBtn {
+  @apply ml-1 p-2 rounded-full bg-blue-100 text-blue-500 cursor-pointer;
+}
+
+#mic {
+  margin-left: 5px;
+  padding: 8px 10px;
+  border-radius: 50%;
+  background-color: rgb(227, 244, 249);
+}
+
+#widget {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  width: 59.2vw;
+}
+
+#searchinput:focus {
+  outline: none;
+}
+
+@media (max-width: 450px) {
+  #cats {
+    display: none;
+  }
+
+  #searchcard {
+    width: max-content;
+    height: 22vh;
+  }
+
+  #searchinput {
+    width: 58vw;
+    height: 45px;
+    padding: 8px 15px;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  #widget {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60vw;
+  }
+
+  #search {
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  #select {
+    width: 32%;
+    font-size: 12px;
+  }
+  #buyslider {
+    border: 1px solid black;
+  }
+}
