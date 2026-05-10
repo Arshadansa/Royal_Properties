@@ -1,4 +1,6 @@
 <img width="1470" height="797" alt="Screenshot 2026-05-10 at 12 52 22 PM" src="https://github.com/user-attachments/assets/c359c5f2-6a10-4049-b723-74c858147e77" />
+
+
 # Royal Properties
 
 Royal Properties is a real estate platform that helps users search and explore properties for buying, renting, PG/coliving accommodations, commercial properties, and plots/land based on location preferences.
